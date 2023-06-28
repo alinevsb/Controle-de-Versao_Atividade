@@ -8,7 +8,8 @@ Passos:
       - Agora, se colocamos um git satus novamente, vamos ver que há um "new file" porém não existem commits ainda, ou seja, o arquivo passou a ser tracked mas não foi commitado ainda, pois não informamos ao git ainda que queremos salvar o arquivo em certo ponto
    - 5- Para informar ao git as mudanças desejadas, podemos usar o comando git commit -a -m (o -a serve pra que sejam adicionados todos os tipos de arquivos) (o -m adicionará uma mensagem, pra que qualquer pessoa que leia o histórico de commits consiga compreender o que foi feito)
    - 6- Podemos usar o git status novamente, para ter certeza que o commit deu certo
-   - 7- Agora usamos o repositório que foi criado no github, adicionando o comando git remote add origin <link do repositório>
+   - 7- Agora usamos o repositório que foi criado no github, adicionando o comando git remote add origin <link do repositório>, depois git branch -M main e depois git push -u origin main
+   - 8- Para fazer uma troca de branches, podemos usar o git checkout -b "teste"
 
 
 Comandos importantes para versionamento:
